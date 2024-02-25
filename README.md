@@ -22,6 +22,11 @@ cd "$NAME"
 npm install
 ```
 
+2. Create `.env` by copying it from `.env.sample`
+```sh
+cp .env.sample .env
+```
+
 2. Run supabase
 ```sh
 npm run supabase
