@@ -1,5 +1,9 @@
 # Template for web apps
 
+- Vite builds the frontend with SolidJS
+- Supabase provides secured DB and file storage
+- Storybook configured with SolidJS to isolated component test
+
 ## How to run
 
 Note: feel free to use `bun` instead of `npm`.
@@ -24,11 +28,7 @@ npm run vite
 
 4. Open `http://localhost:8000`. This is supabase admin.
 5. Create a user at `http://localhost:8000/project/default/auth/users`
-5. Open whatever port Vite used (`http://localhost:5173` maybe)
+5. Open whatever port Vite used (`http://localhost:5173` maybe?)
 6. Login with that user
 
-## How to deploy
-
-Push to a Github repo of yours
-This will output a docker-compose.yml for you to run.
-[not true]
+You may want to replace all occurrences of `app-template` in files with the name of your application
