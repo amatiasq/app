@@ -4,6 +4,12 @@
 - Supabase provides secured DB and file storage
 - Storybook configured with SolidJS to isolated component test
 
+Comes already with a sidebar with navigation, some paths only accessible to authorized users.
+
+`/login` with redirection to where the user expected to access out of the box.
+
+A logged in user will see a section at the bottom of the sidebar with logout button.
+
 ## How to run
 
 Note: feel free to use `bun` instead of `npm`.
